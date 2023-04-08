@@ -1,5 +1,5 @@
 # WhatsappBot
-To run the app use
+## To run the app use
 
 create virtual env: 'py -m venv env'
 
