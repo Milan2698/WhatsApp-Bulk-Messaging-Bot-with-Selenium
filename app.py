@@ -53,8 +53,7 @@ def index():
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     driver.get('https://web.whatsapp.com')
     sleep(25)
-    number_list = [9924870676, 7874868634]
-    for idx, number in enumerate(number_list):
+    for number in number_list:
         t = random.randint(8,15)
         sleep(t)
         if number == "":
